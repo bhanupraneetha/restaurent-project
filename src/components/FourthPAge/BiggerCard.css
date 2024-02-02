@@ -1,0 +1,25 @@
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 450px;
+  border-radius: 5px;
+  height:500px;
+  background-color: white;
+  position: relative;
+  top:-120px
+ 
+}
+
+
+.img-in-bigcard{
+  width:220px;
+  height: 200px;
+  position: relative;
+  top:30px;
+  left: 80px;
+
+}
+
+.test{
+  color: blue;
+}

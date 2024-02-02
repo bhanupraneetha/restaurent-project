@@ -1,0 +1,36 @@
+.box{
+    height:70px;
+    width:15px;
+    background-color: rgb(62, 114, 114);
+    position: relative;
+    left:180px;
+    top:65px;
+}
+
+.text{
+  position:relative;
+  left:50px;
+    color: black;
+    left:230px;
+    font-size : 30px;
+    font-weight: 700;
+
+}
+
+.lorem{
+position:relative;
+left:750px;
+top:-80px;
+}
+
+.card-containerisation{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap:100px;
+    margin-left: 100px;
+}
+.seemore{
+    position: relative;
+    top:160px
+}

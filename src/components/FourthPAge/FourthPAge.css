@@ -1,0 +1,40 @@
+.box{
+    height:70px;
+    width:15px;
+    background-color: rgb(62, 114, 114);
+    position: relative;
+    left:180px;
+    top:65px;
+}
+
+.text{
+  position:relative;
+  left:50px;
+    color: black;
+    left:230px;
+    font-size : 30px;
+    font-weight: 700;
+
+}
+
+.lorem{
+position:relative;
+left:750px;
+top:-80px;
+}
+
+.cards-alignment{
+  display: flex;
+  justify-content: 
+}
+
+.big-img-shift{
+  position: relative;
+  left:950px;
+  bottom:250px;
+}
+
+.sec-img-shift{
+  position: relative;
+  left:200px
+}

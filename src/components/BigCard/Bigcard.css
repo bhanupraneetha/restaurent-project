@@ -1,0 +1,62 @@
+.card-container{
+    
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 400px;
+        height:400px;
+        /* background-color: red; */
+        border-radius: 10px;
+        position: relative;
+        left:30px;
+        top:20px
+}
+
+.img{
+    width: 410px;
+    height:430px; 
+}
+
+.childcard{
+    width: 400px;
+    background-color: aqua;
+    height:175px;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0px;
+}
+
+.big-text{
+    position: relative;
+    left:30px;
+    top:15px;
+    font-weight:400;
+}
+
+.big-para{
+    position: relative;
+    left:30px;
+    top:5px;
+    font-weight:400;
+
+}
+
+.city{
+    position: relative;
+    left:25px;
+}
+
+.button{
+ background-color: white;
+ width:130px;
+ border: 2px solid whitesmoke;
+ height:40px;
+ font-weight: 400;
+ border-radius: 7px;
+ position: relative;
+ left:210px;
+ top:-40px
+}
+
+.card-containerisation{
+        
+}
