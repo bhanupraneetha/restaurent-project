@@ -229,6 +229,11 @@ left:160px;
   color:rgb(234, 239, 239);
 }
 @media (min-width: 0px) and (max-width: 429px) {
- 
+  body {
+  }
+  .nav{
+ }
+  .container{
+  }
 }
 

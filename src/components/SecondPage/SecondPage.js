@@ -10,7 +10,7 @@ function SecondPage() {
     <div className='box'>
         
     </div>
-    <h1 className="text">Some top restaurent for <br/> dining out or in</h1> 
+    <h1 className="dining">Some top restaurent for <br/> dining out or in</h1> 
     <p className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt ut labore et dolore magna <br /> aliqua. Ut enim ad minim veniam, quis nostrud exercitation  <br /> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 <div className='card-containerisation'>

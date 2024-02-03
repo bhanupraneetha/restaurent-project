@@ -1,13 +1,12 @@
-import SeventhPAge from "./components/SeventhPage/SeventhPAge";
+import React from 'react'
+import SecondPage from './components/SecondPage/SecondPage'
+import ThirdPage from './components/BigCard/ThirdPage/ThirdPage'
 function App() {
   return (
-    <>
-    <SeventhPAge />
-    </>
-  );
+    <div>
+      <SecondPage />
+    </div>
+  )
 }
 
-export default App;
-
-
-
+export default App

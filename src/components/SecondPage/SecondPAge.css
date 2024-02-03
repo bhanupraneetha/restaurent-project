@@ -7,11 +7,15 @@
     top:65px;
 }
 
-.text{
-  position:relative;
-  left:50px;
-    color: black;
-    left:230px;
+.dining{
+  /* position:relative;
+  left:220px;
+  bottom:300px; */
+  position: relative; 
+  top:-4px;
+  left:260px;
+
+    color: black; 
     font-size : 30px;
     font-weight: 700;
 
