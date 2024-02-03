@@ -1,10 +1,67 @@
 .h4{
-    color:green;
-    opacity: 0.3;
+    color:blue;
     position: relative;
-    
+    top:-400px;
+    left:500px;
+    font-size: 300px;
+
 }
 
-.container{
-    d
+.para-pe{
+    position: relative;
+    bottom:350px;
+    left:480px
+}
+
+.search{ 
+    position:relative;;
+    left:480px;
+    top:-230px;
+
+ height:70px;
+
+     width:500px;
+     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
+    border-radius: 44px;
+
+}
+.input{
+    width:220px;
+    border: 0px solid white ;
+    font-size: 25px;
+    margin-top:9px;
+    margin-left:22px
+}
+.go{
+    font-weight:600;
+   position:relative;
+   left:155px;
+    /* background-color: teal; */
+    color:aliceblue;
+    padding:19px;
+    width:100px;
+    /* border-color: teal; */
+    font-size : 33px;
+    margin-top: 19px;
+    border-radius: 10px;
+}
+
+.go-icon{
+    position:relative;
+   left:195px;
+   margin-top: 9px;
+}
+
+.footer{
+    height:40px;
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:490px;
+    bottom: 100px;
+}
+
+.footer-2{
+    
 }

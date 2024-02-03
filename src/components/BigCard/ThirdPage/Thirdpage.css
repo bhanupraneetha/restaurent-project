@@ -52,20 +52,20 @@ top:110px;
 }
 .input{
     width:220px;
-    border: 0px solid white ;
+    border: 0px solid ;
     font-size: 20px;
 }
 .go{
     font-weight:600;
-   position:relative;
-   left:155px;
-    background-color: teal;
-    color:aliceblue;
-    padding:10px;
-    width:100px;
-    border-color: teal;
-    font-size : 20px;
-    margin-top: 10px;
+    position:relative;
+    left:155px;
+     background-color: teal;
+     color:aliceblue;
+     padding:10px;
+     width:100px;
+     border-color: teal;
+     font-size : 20px;
+     margin-top: 10px;
 }
 
 .date{
