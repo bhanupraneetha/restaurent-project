@@ -1,9 +1,9 @@
 import React from 'react'
-import ThirdPage from './components/BigCard/ThirdPage/ThirdPage'
+import SeventhPAge from './components/SeventhPage/SeventhPAge'
 function App() {
   return (
     <div>
-      <ThirdPage /> 
+      <SeventhPAge /> 
     </div>
   )
 }
