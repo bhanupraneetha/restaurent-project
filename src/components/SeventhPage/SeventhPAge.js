@@ -38,9 +38,10 @@ export default SeventhPAge;
 
 
 <div className='footer-2'>
-
-</div>
-
 <FaInstagramSquare />
 <FaLinkedin />
 <FaSquareFacebook />
+
+</div>
+
+
