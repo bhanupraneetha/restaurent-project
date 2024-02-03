@@ -5,6 +5,8 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
+import { FaRegCopyright } from "react-icons/fa6";
+
 
 function SeventhPAge() {
   return (
@@ -29,6 +31,12 @@ function SeventhPAge() {
             <h6>Get in touch</h6>
 
         </div>
+                    <div className='footer-2'>
+            <FaInstagramSquare />
+            <FaLinkedin />
+            <FaSquareFacebook />
+            <p><FaRegCopyright/> 2022 Techverse World</p>
+            </div>
       </div>
     </div>
   );
@@ -37,11 +45,6 @@ function SeventhPAge() {
 export default SeventhPAge;
 
 
-<div className='footer-2'>
-<FaInstagramSquare />
-<FaLinkedin />
-<FaSquareFacebook />
 
-</div>
 
 

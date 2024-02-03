@@ -59,9 +59,17 @@
     justify-content: space-between;
     position: relative;
     left:490px;
-    bottom: 100px;
+    top: -160px;
 }
 
 .footer-2{
-    
+    height:40px;
+    width:500px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left:800px;
+    bottom: 100px;
 }
+
+
