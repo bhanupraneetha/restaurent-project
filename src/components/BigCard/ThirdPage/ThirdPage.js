@@ -1,11 +1,16 @@
 import React from 'react'
 import './Thirdpage.css'
 import { FaCaretDown } from "react-icons/fa";
-
+import first from './first.png'
+import second from './Second.png'
 function ThirdPage() {
   return (
     <div className='parentofcard'>
+            <img src = {first}  className='img-threep'/>
+            <img src = {second}  className='img-three222p'/>
+
       <div className='card-card'>
+
         <div className='teal-div'>
 
         </div>

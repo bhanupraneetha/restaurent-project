@@ -4,6 +4,10 @@
   width: 1100px;
   height:400px;
   border-radius: 8px;
+  position: relative;
+  bottom: 900px;
+  left:60px;
+  z-index:5
 }
 
 .parentofcard{
@@ -84,4 +88,19 @@ top:110px;
     position: relative;
     left:740px;
     top:160px
+}
+
+.img-threep{
+    position: relative;
+    left:-150px;
+    top:-160px
+}
+
+.img-three222p{
+    height:300px;
+    width:500px;
+    position:relative;
+    left:500px;
+    bottom: 250px;
+    z-index: 1;
 }
