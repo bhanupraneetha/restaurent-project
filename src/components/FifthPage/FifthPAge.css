@@ -4,3 +4,29 @@
     left:650px;
     top:100px;
 }
+
+.lorem{
+    position:relative;
+left:600px;
+top:120px;
+color:grey;
+}
+/* 
+.pop{
+    position: relative;
+    top:200px;
+    left:30px;
+    display: grid;
+    grid-template-columns:(repeat(3,1fr));
+  
+} */
+
+
+.pop {
+    position: relative;
+    top: 100px;
+    left: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Remove parentheses around repeat */
+    gap: 30px; /* Add some gap between SmallCard components */
+}
