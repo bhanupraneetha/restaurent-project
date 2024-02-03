@@ -1,10 +1,11 @@
-import Fourthpage from "./components/FourthPAge/Fourthpage";
+import
 function App() {
   return (
-    <div>
-     <Fourthpage />
-    </div>
+     < />
   );
 }
 
 export default App;
+
+
+

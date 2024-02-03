@@ -3,10 +3,11 @@
   transition: 0.3s;
   width: 450px;
   border-radius: 5px;
-  height:500px;
+  height:450px;
   background-color: white;
   position: relative;
-  top:-120px
+  top:-350px;
+  left:100px
  
 }
 
@@ -16,10 +17,23 @@
   height: 200px;
   position: relative;
   top:30px;
-  left: 80px;
+  left: 100px;
 
 }
 
 .test{
   color: blue;
+}
+
+.h6js{
+  position: relative;
+  left:100px;
+  top:40px;
+  color:rgb(42, 42, 118)
+}
+
+.pjs{
+  position: relative;
+  top:50px;
+  left:120px;
 }

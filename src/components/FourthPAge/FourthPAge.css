@@ -1,40 +1,62 @@
 .box{
-    height:70px;
-    width:15px;
+    height:100px;
+    width:18px;
     background-color: rgb(62, 114, 114);
     position: relative;
     left:180px;
-    top:65px;
+    top:155px;
+    overflow: hidden;
+    
 }
 
 .text{
   position:relative;
-  left:50px;
+  top:50px;
     color: black;
     left:230px;
     font-size : 30px;
     font-weight: 700;
-
+    color: rgb(37, 37, 107);
+    font-size: 50px;
+    
 }
 
 .lorem{
 position:relative;
-left:750px;
+left:450px;
 top:-80px;
 }
 
 .cards-alignment{
   display: flex;
-  justify-content: 
+   
 }
 
 .big-img-shift{
   position: relative;
-  left:950px;
+  left:850px;
   bottom:250px;
 }
 
 .sec-img-shift{
   position: relative;
-  left:200px
+  left:500px;
+  top:50px; 
+
+}
+
+.first-img-shift{
+  position: relative;
+  left:170px;
+}
+.tablebookingtext{
+  position:relative;
+  left:550px;
+  bottom:350px
+}
+.foodforfreetext{
+  position:relative;
+  bottom:200px;
+  left:180px
+
 }

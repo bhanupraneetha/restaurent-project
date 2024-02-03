@@ -19,12 +19,22 @@ function Fourthpage() {
 
 <div className='cards-alignment'>
   <div>
-  <Cards card= {img1} />
+    <div className='first-img-shift'>
+    <Cards card= {img1} />
+
+    </div>
   <div className='sec-img-shift'>
   <Cards card= {img2} />
 
   </div>
-  
+  <div className="tablebookingtext">
+    <h3><b>advanced table booking</b></h3>
+    <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit, sed</p>
+  </div>
+  <div className="foodforfreetext">
+    <h3><b>food for free 24/7</b></h3>
+    <p>Lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit, sed</p>
+  </div>
    <div className='big-img-shift'>
    <BigCard  card = {img3} /> 
     </div> 
