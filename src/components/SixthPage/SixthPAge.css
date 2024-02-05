@@ -37,3 +37,49 @@ font-size: large;
     width:700px;
     height:700px
 }
+
+
+@media screen and (max-width: 428px) {
+ 
+    /* .box{
+        height:100px;
+        width:15px;
+        background-color: rgb(62, 114, 114);
+        position: relative;
+        left:180px;
+        top:110px;
+    }
+    
+    .text{
+      position:relative;
+      left:50px;
+        color: rgb(32, 32, 95);
+        left:230px;
+        font-size : 50px;
+        font-weight: 700;
+    
+    }
+    
+    .lorem{
+    position: relative;
+    top:40px;
+    left:230px;
+    font-size: large;
+    }
+    
+    .images{
+        position: relative;
+        left:220px;
+        top:-270px
+    }
+    
+    .phone{
+        position:relative;
+        bottom:350px;
+        left:300px;
+        width:200px;
+        height:200px
+    }
+     */
+
+  }

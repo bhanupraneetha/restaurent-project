@@ -6,9 +6,11 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaRegCopyright } from "react-icons/fa6";
+import { LiaArrowCircleLeftSolid } from "react-icons/lia";
+import { LiaArrowCircleRightSolid } from "react-icons/lia";
 
 
-function SeventhPAge() {
+function SeventhPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div>
       <img src={image} style={{ height: "500px" }} />
@@ -38,11 +40,17 @@ function SeventhPAge() {
             <p><FaRegCopyright/> 2022 Techverse World</p>
             </div>
       </div>
+      <button onClick={goToPreviousPage}>Back</button>
+      <button onClick={goToNextPage}>Next</button>
+      <LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
+      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/>
+
     </div>
+
   );
 }
 
-export default SeventhPAge;
+export default SeventhPage;
 
 
 

@@ -2,8 +2,10 @@ import React from 'react'
 import './SecondPAge.css'
 import BigCard from '../BigCard/BigCard'
 import { GoArrowRight } from "react-icons/go";
+import { LiaArrowCircleLeftSolid } from "react-icons/lia";
+import { LiaArrowCircleRightSolid } from "react-icons/lia";
 
-function SecondPage() {
+function SecondPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div>
        <div>
@@ -21,9 +23,13 @@ function SecondPage() {
       <h6>See More</h6>
     </div>
 </div>
+<LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
+      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/> 
+<button onClick={goToPreviousPage}>Back</button>
+      <button onClick={goToNextPage}>Next</button>
     </div>
    
   )
 }
 
-export default SecondPage
+export default SecondPage;

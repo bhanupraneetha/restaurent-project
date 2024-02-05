@@ -8,7 +8,7 @@ import { LiaArrowCircleLeftSolid } from "react-icons/lia";
 import { LiaArrowCircleRightSolid } from "react-icons/lia";
 import { RxAvatar } from "react-icons/rx";
 
-function FirstPage() {
+function FirstPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div className="container" >  
       <div className='navbar-container'>  
@@ -48,12 +48,14 @@ function FirstPage() {
 <h4> <MdOutlineLocationOn />Indore</h4>
 </div>
 <div className="search">
-    <input type="text" placeholder="search restaurent & food" className="input" /><button className="go">GO</button>
+    <input type="text2" placeholder="search restaurent & food" className="input" /><button className="go">GO</button>
 </div>
 <div  className="icons">
-      <LiaArrowCircleLeftSolid style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
-      <LiaArrowCircleRightSolid style={{ fontSize: '50px' }}/> 
+      <LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
+      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/> 
       </div>
+      {/* <button onClick={goToPreviousPage}>Back</button>
+      <button onClick={goToNextPage}>Next</button> */}
       </div>
   )
 }

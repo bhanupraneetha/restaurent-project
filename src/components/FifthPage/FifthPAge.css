@@ -30,3 +30,7 @@ color:grey;
     grid-template-columns: repeat(3, 1fr); /* Remove parentheses around repeat */
     gap: 30px; /* Add some gap between SmallCard components */
 }
+.buttonsfifthPage{
+    margin: 15px;
+    padding: 50px;
+}

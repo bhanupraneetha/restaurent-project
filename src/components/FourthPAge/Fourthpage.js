@@ -5,8 +5,10 @@ import BigCard from './BiggerCard';
 import img1 from './img-1.jpeg';
 import img3 from './img-3.jpeg'
 import img2 from './img-2.jpeg'
+import { LiaArrowCircleLeftSolid } from "react-icons/lia";
+import { LiaArrowCircleRightSolid } from "react-icons/lia";
 
-function Fourthpage() {
+function FourthPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div>
       <div>
@@ -40,8 +42,13 @@ function Fourthpage() {
     </div> 
   </div>
 </div>
+<LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
+      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/>
+
+<button onClick={goToPreviousPage}>Back</button>
+      <button onClick={goToNextPage}>Next</button>
     </div>
   )
 }
 
-export default Fourthpage
+export default  FourthPage
