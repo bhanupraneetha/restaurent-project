@@ -21,7 +21,7 @@
 
 }
 
-.lorem{
+.lorem-ip{
 position:relative;
 left:750px;
 top:-80px;
@@ -37,4 +37,10 @@ top:-80px;
 .seemore{
     position: relative;
     top:160px
+}
+
+
+.container-third-page{
+    margin-bottom: 200px;
+
 }

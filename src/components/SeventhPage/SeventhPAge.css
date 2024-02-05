@@ -1,9 +1,9 @@
-.h4{
-    color:blue;
+.amaze{
+    color:rgb(31, 31, 125);
     position: relative;
     top:-400px;
     left:500px;
-    font-size: 300px;
+    font-weight: 500;
 
 }
 
@@ -13,7 +13,7 @@
     left:480px
 }
 
-.search{ 
+.search-se{ 
     position:relative;;
     left:480px;
     top:-230px;

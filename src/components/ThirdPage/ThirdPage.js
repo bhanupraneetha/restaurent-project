@@ -3,8 +3,6 @@ import './Thirdpage.css'
 import { FaCaretDown } from "react-icons/fa";
 import first from './first.png'
 import second from './Second.png'
-import { LiaArrowCircleLeftSolid } from "react-icons/lia";
-import { LiaArrowCircleRightSolid } from "react-icons/lia";
 function ThirdPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div className='parentofcard'>
@@ -29,11 +27,7 @@ function ThirdPage({ goToNextPage, goToPreviousPage }) {
     <div className='guests'>  Guests  <FaCaretDown/> </div>
         <p className='guests'>2 Guests</p>
     </div>
-    <LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
-      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/> 
-
-    <button onClick={goToPreviousPage}>Back</button>
-      <button onClick={goToNextPage}>Next</button>
+    
     </div>
 
   )

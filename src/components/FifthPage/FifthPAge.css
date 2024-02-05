@@ -1,13 +1,13 @@
 .h6-nm{
-    color: blue;
+    color: rgb(26, 26, 109);
     position: relative;
     left:650px;
     top:100px;
 }
 
-.lorem{
+.lorem-f5-p{
     position:relative;
-left:600px;
+left:400px;
 top:120px;
 color:grey;
 }
@@ -33,4 +33,8 @@ color:grey;
 .buttonsfifthPage{
     margin: 15px;
     padding: 50px;
+}
+
+.card-container-fp{
+    margin-bottom: 200px;
 }

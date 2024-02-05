@@ -5,18 +5,18 @@ import BigCard from './BiggerCard';
 import img1 from './img-1.jpeg';
 import img3 from './img-3.jpeg'
 import img2 from './img-2.jpeg'
-import { LiaArrowCircleLeftSolid } from "react-icons/lia";
-import { LiaArrowCircleRightSolid } from "react-icons/lia";
+
+
 
 function FourthPage({ goToNextPage, goToPreviousPage }) {
   return (
     <div>
       <div>
-    <div className='box'>
+    <div className='box-f4p'>
         
     </div>
-    <h1 className="text"> Our <br/> Services</h1> 
-    <p className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt ut labore et dolore magna <br /> aliqua. Ut enim ad minim veniam, quis nostrud exercitation  <br /> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <h1 className="text-f4p"> Our <br/> Services</h1> 
+    <p className='lorem-f4p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed <br /> do eiusmod tempor incididunt ut labore et dolore magna <br /> aliqua. Ut enim ad minim veniam, quis nostrud exercitation  <br /> ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
 
 <div className='cards-alignment'>
@@ -42,11 +42,7 @@ function FourthPage({ goToNextPage, goToPreviousPage }) {
     </div> 
   </div>
 </div>
-<LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
-      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/>
 
-<button onClick={goToPreviousPage}>Back</button>
-      <button onClick={goToNextPage}>Next</button>
     </div>
   )
 }

@@ -15,13 +15,14 @@ function SeventhPage({ goToNextPage, goToPreviousPage }) {
     <div>
       <img src={image} style={{ height: "500px" }} />
       <div className='container'>
-        <h4 className='h4'>Get Notified <br /> about new amazing products</h4>
+        <h4 className='amaze'>Get Notified <br /> about new amazing products</h4>
         <div className='para-pe'>
           <p style={{ fontWeight: "600" }}>Lorem ipsum is simply dummy text of the printing and typesetting industry </p>
-          <p style={{ fontWeight: "600" }}>It has been the industry's standard dummy text ever since</p>
+          <p style={{ fontWeight: "600" }}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It has been the industry's standard dummy text ever since</p>
         </div>
+        <br/>
 
-        <div className="search">
+        <div className="search-se">
           <input type="text" placeholder="E-Mail" className="input" /> 
           <FaArrowCircleRight className="go-icon" style={{fontSize:"30px"}} />
         </div>
@@ -40,10 +41,10 @@ function SeventhPage({ goToNextPage, goToPreviousPage }) {
             <p><FaRegCopyright/> 2022 Techverse World</p>
             </div>
       </div>
-      <button onClick={goToPreviousPage}>Back</button>
+      {/* <button onClick={goToPreviousPage}>Back</button>
       <button onClick={goToNextPage}>Next</button>
       <LiaArrowCircleLeftSolid   onClick={goToPreviousPage} style={{ fontSize: '50px' }}/> &nbsp; &nbsp; 
-      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/>
+      <LiaArrowCircleRightSolid  onClick={goToNextPage} style={{ fontSize: '50px' }}/> */}
 
     </div>
 

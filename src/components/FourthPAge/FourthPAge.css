@@ -1,4 +1,4 @@
-.box{
+.box-f4p{
     height:100px;
     width:18px;
     background-color: rgb(62, 114, 114);
@@ -9,7 +9,7 @@
     
 }
 
-.text{
+.text-f4p{
   position:relative;
   top:50px;
     color: black;
@@ -21,7 +21,7 @@
     
 }
 
-.lorem{
+.lorem-f4p{
 position:relative;
 left:450px;
 top:-80px;
